@@ -1,0 +1,92 @@
+.about-us-div{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../Assets/about-image.jpg");
+      height: 400px;
+      background-size: cover;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      flex-direction: column;
+}
+.about-us-div span{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.about-us-tagline{
+    font-style: italic;
+    font-size: 15px!important;
+}
+.about-vision-div{
+    /* border: 2px solid black; */
+    height: 300px  ;
+    background-color: #dde3ca;
+    padding: 20px;
+    /* margin: 20px;        */
+    
+}
+.about-vision-div span {
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-vision-para {
+    font-size: 16px;
+    margin: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    color: black;
+}
+.about-our-team-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0px;
+}
+.about-our-team-div span{
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+.about-coach-section{
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    }
+.about-coach-name, .about-coach-role{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+.about-coach-text{
+    font-size: 12px;
+    text-align: justify;
+}
+.about-coach-section img{
+    width: auto;
+    height: 300px;
+}
